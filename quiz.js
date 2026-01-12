@@ -10,7 +10,7 @@ function checkAnswer() {
       return;
     }
 
-    if (userAnswer.value === correctAnswer) {
+    if (userAnswer === correctAnswer) {
       feedback.textContent = "Correct. Good job!";
       feedback.style.color = "green";
     } else {
